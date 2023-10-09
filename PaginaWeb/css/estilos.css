@@ -113,7 +113,7 @@ body {
 
 .cta {
     display: inline-block;
-    background-color: #2091F9;
+    background:linear-gradient( #3498db, #9b59b6);
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -395,8 +395,15 @@ body {
 
 /* Footer */
 
+.logo{
+    width: 350px;
+    height: 250px;
+}
+
 .footer{
     background-color: #1D293F;
+    text-align:center ;
+    align-items: center;
 }
 
 .footer__title{
@@ -437,6 +444,7 @@ body {
     margin-top: 10px;
     display: flex;
     overflow: hidden;
+
 }
 
 .footer__input{
@@ -456,7 +464,7 @@ body {
     display: inline-block;
     height: 50px;
     padding: 0 20px ;
-    background-color: #2091F9;
+    background:linear-gradient( #3498db, #9b59b6);
     border: none;
     font-size: 1rem;
     color: #fff;
