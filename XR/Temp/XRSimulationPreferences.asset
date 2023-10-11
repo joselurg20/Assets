@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c1f3617f7666454a85aa6f5d39d56b6, type: 3}
-  m_Name: Chair
+  m_Script: {fileID: 11500000, guid: b2f528b98f844ed8b6b2d5fdf90b40e6, type: 3}
+  m_Name: XRSimulationPreferences
   m_EditorClassIdentifier: 
-  ItemName: Chair
-  ItemImage: {fileID: 21300000, guid: 92d97ac957124584c9e1515b58e31291, type: 3}
-  ItemDescription: ModerChair
-  Item3DModel: {fileID: 2340732208883612074, guid: b1c91849ad979994b8c5e2d074526ce8,
+  m_EnvironmentPrefab: {fileID: 0}
+  m_FallbackEnvironmentPrefab: {fileID: 7576867131100388943, guid: c7b92c392902f4043a03a64032c02fe1,
     type: 3}
+  m_EnableNavigation: 1
