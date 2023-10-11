@@ -113,7 +113,7 @@ body {
 
 .cta {
     display: inline-block;
-    background:linear-gradient( #3498db, #9b59b6);
+    background:linear-gradient( #2ea6db, #ad29f8 80%);
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -464,7 +464,7 @@ body {
     display: inline-block;
     height: 50px;
     padding: 0 20px ;
-    background:linear-gradient( #3498db, #9b59b6);
+    background:linear-gradient( #2ea6db, #ad29f8 70%);
     border: none;
     font-size: 1rem;
     color: #fff;
