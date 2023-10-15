@@ -766,7 +766,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.0731e-41, y: 2.75506e-40, z: 1.3912e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 4.1326e-40, z: 3.030571e-39, w: 1.561203e-39}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1303,7 +1303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 22817.637, y: -12148.366}
+  m_AnchoredPosition: {x: 522567.16, y: -279624.34}
   m_SizeDelta: {x: 0, y: 440}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1309721346
@@ -1424,6 +1424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1350710968}
   - component: {fileID: 1350710967}
+  - component: {fileID: 1350710969}
   m_Layer: 0
   m_Name: AEInteractionsManeger
   m_TagString: Untagged
@@ -1460,6 +1461,19 @@ Transform:
   - {fileID: 1233475063}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1350710969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350710966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc724b7f8f9baf24e9fc535a45b6d05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 1847824857}
 --- !u!1 &1393722174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,7 +1612,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items:
+  - {fileID: 11400000, guid: a7d23986dbb98674396b3f2cd98289cd, type: 2}
   - {fileID: 11400000, guid: fef42813100f60f45a311aacb0f9495c, type: 2}
+  - {fileID: 11400000, guid: af83b74bff6721249bea71f8c5a6e5c2, type: 2}
+  - {fileID: 11400000, guid: c4427c8a19cf51b4c8d92749f896e9ba, type: 2}
+  - {fileID: 11400000, guid: ea0bcd04ca01b5b4894f5821e4904369, type: 2}
   buttonContainer: {fileID: 1309721344}
   itemButtonManager: {fileID: 8232859165298243663, guid: c31f0b968febaaf4f88e2b6ea3cd13d2,
     type: 3}
@@ -1698,7 +1716,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1623474154}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1350710969}
+        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
+        m_MethodName: TakeScreenShot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1623474154
 MonoBehaviour:
   m_ObjectHideFlags: 0
