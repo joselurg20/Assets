@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c1f3617f7666454a85aa6f5d39d56b6, type: 3}
+  m_Name: Calabaza
+  m_EditorClassIdentifier: 
+  ItemName: calabaza
+  ItemImage: {fileID: 21300000, guid: 653f5b4904a0ffc49ad6df349c27a1b7, type: 3}
+  ItemDescription: Calabaza
+  Item3DModel: {fileID: 7489785559117140, guid: bb4b8a4a09f9c444e9deb99d57fb4448,
+    type: 3}
